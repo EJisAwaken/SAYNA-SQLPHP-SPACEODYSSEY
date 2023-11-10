@@ -1,0 +1,20 @@
+POSTE OCCUPE : DEVELOPPEUR DANS UNE AGENCE SPATIALE <Stellar Tech>
+
+Stellar Tech : organisation intergalactique qui explore l'univers, a la recherche de nouveau planetes, qui menent des missions spatiales et entretient les vaisseaux !!
+
+
+NOTRE TACHE : Developoper un "Systeme de Gestion de Missions Spatiale (S.G.M.S)";
+Fonctionnalité de l'application : 
+-> Gerer les planettes découvertes (La documentaion détaillé de chasue planète decouverte)
+-> Astronautes ( Suivi des astronautes)
+-> Mission Spatiale ( Assignation des astronautes au mission spéciale )
+
+NB : Notre application doit assurer :: 	-> 1 mission = 1 vaisseau ( verbe assigné)
+					-> 1 vaisseau = 1 astronaute
+					-> 1 mission =  planettes ( verbe associé) que l'astronaute va visiter;
+
+
+
+
+
+
