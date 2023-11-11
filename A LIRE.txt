@@ -1,0 +1,44 @@
+POSTE OCCUPE : DEVELOPPEUR DANS UNE AGENCE SPATIALE <Stellar Tech>
+
+Stellar Tech : organisation intergalactique qui explore l'univers, à la recherche de nouveaux planetes, qui menent des missions spatiales et entretient les vaisseaux !!
+
+
+NOTRE TACHE : Develloper un "Systeme de Gestion de Missions Spatiale (S.G.M.S)";
+Fonctionnalité de l'application : 
+-> Gerer les planettes découvertes (La documentaion détaillé de chaque planète decouverte)
+-> Astronautes ( Suivi des astronautes)
+-> Mission Spatiale ( Assignation des astronautes au mission spéciale )
+
+NB : Notre application doit assurer {
+ 	-> 1 mission  = 1 vaisseau ( verbe assigné)					-> 1 vaisseau = 1 astronaute
+	-> 1 mission  = planettes ( verbe associé) que l'astronaute va visiter;
+
+
+*******************************************************************************
+
+CONCEPTION (Merise) 
+
+MCD : 
+	ENTITE  : ->Planetes, Astronautes, Missions, vaisseaux
+	Atribut : -> Distance de la planetes a la terre, nb d'annes de services d'un astronautes, la capacité d'un vaisseau 
+
+Planètes :
+
+Attributs : Nom de la planète, Distance à la Terre,Circonference, Documentation
+Astronautes :
+
+Attributs : Nom de l'astronaute, Années de service, Spécialité, etc.
+Missions :
+
+Attributs : Nom de la mission, Date de début, Date de fin, Objectif, statue
+Vaisseaux :
+
+Attributs : Nom du vaisseau, Capacité, Année de fabrication, .
+
+
+
+
+******.*.*..*..*.*.*.*.***.******.**.**.*.*.*.**.*..*.*.*.*
+
+DEVELOPPEMENT (PHP, MySQL)
+
